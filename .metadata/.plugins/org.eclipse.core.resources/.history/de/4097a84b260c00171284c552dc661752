@@ -1,0 +1,13 @@
+
+public class FirefoxDemo {
+
+	public static void main(String[] args) {
+		WebDriver driver;
+		System.setProperty("webdriver.gecko.driver", "/Users/maharshibhatt/Downloads/geckodriver");
+		driver = new FirefoxDriver();
+		String baseURL = "http://www.google.com";
+		driver.get(baseURL);
+
+	}
+
+}
